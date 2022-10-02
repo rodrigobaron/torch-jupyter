@@ -1,4 +1,6 @@
 FROM nvidia/cuda:11.7.1-base-ubuntu20.04
+LABEL maintainer="Rodrigo Baron <baron.rodrigo0@gmail.com>"
+LABEL repository="torch-jupyter"
 
 # Set bash as default shell
 ENV SHELL=/bin/bash
