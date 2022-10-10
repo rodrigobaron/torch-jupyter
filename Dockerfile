@@ -19,6 +19,7 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 # Build with some basic utilities
+ENV DEBIAN_FRONTEND=noninteractive 
 RUN apt-get update && apt-get -y install \
     python3-pip \
     xvfb \
